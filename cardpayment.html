@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10">
+    <link rel="stylesheet" href="cardpayment.css">
+    <title>Card Payment</title>
+    <script type="text/javascript">
+        function myfunction()
+        {
+            alert("payment successfully")
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Card payment</h1>
+        <hr><br>
+        <label> Card Number *</label><br><br>
+        <input type="text" id="s" placeholder="45 267 53 546 234"><br><br>
+        <label> Expiry Date *</label> 
+        <label id="ss"> CVV * </label>
+        <label id="ss"> Zip Code * </label><br><br> 
+        <input type="text" id="p" placeholder="MM/YY"> 
+        <input type="text" id="pp" placeholder=123> 
+        <input type="text" id="pp" placeholder=12345><br><br>
+        <input type="checkbox"> Receive a copy of receipt in your inbox?  <br><br><br>
+        <input type="button" value="Pay" id="sp" onclick="myfunction()">
+        
+    </div>
+</body>
+</html>
